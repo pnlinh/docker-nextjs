@@ -1,17 +1,16 @@
 import Head from 'next/head'
+import HelloNextJs from "../components/HelloNextJs";
 
 export default function Home() {
   return (
     <div className="container">
       <Head>
         <title>Docker ❤️ NextJs</title>
-        <link rel="icon" href="/favicon.ico" />
+        <link rel="icon" href="/public/favicon.ico" />
       </Head>
 
       <main>
-        <h1 className="title">
-          Docker ❤️ NextJs
-        </h1>
+        <HelloNextJs />
       </main>
 
       <style jsx>{`
